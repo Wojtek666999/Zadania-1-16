@@ -1,0 +1,41 @@
+<html> 
+  <head> 
+           <meta charset="utf-8"> 
+  </head> 
+ <body> 
+<center><h1> STOPKA-Haratym</h1></center> 
+<center><h2> Gdańsk, 30-10-2026</h2></center>
+<center><script src="https://www.stats4u.net/s4u.js" data-id="8776544528" data-style="3303" async></script>
+<!-- Stats4U #8776544528 · Statystyki i ustawienia tego licznika: https://www.stats4u.net/live/8776544528 --></center>
+<center>   </style>
+    <script>
+        function validateForm() {
+        let x = document.forms["details"]["email"].value;
+        let y = document.forms["details"]["comment"].value;
+        if (x == "" || y == "")
+        {
+            alert("Email and comment must be filled out");
+            return false;
+        }
+    }
+    </script>
+    </head>
+    <body>
+        <div id="container">
+            <h1>KSIĘGA GOŚCI</h1>
+            <form action="/action_page.php" name="details" method="post" onsubmit="return validateForm()">
+                <label name="name">Podaj swoje imię</label><br><br>
+                <input type="text" name="name" size="40px"><br><br>
+                <label name="email">Podaj adres e-mail</label><br><br>
+                <input type="email" name="email" size="40px"><br><br>
+                <label name="comment">Zostaw komentarz</label><br><br>
+                <textarea name="comment" cols="42px" rows="5px"></textarea><br><br>
+                                   <div id="button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </div>
+            </form>
+        </div></center>
+ </body> 
+</html> 
